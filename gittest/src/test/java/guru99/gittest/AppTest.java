@@ -11,7 +11,7 @@ public class AppTest {
 	@Test
 	public void myt() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", ".//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\git\\test1\\gittest\\src\\test\\java\\guru99\\gittest\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 //driver.get("http://www.google.com");
 		 driver.get("http://www.google.com");
